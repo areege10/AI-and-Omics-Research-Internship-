@@ -110,7 +110,7 @@ hist(row_median,
      main = "Median Intensity Distribution")
 
 # Set a threshold to remove low variance probes (dataset-specific, adjust accordingly)
-threshold <- 3.5 
+threshold <- 5.8
 abline(v = threshold, col = "black", lwd = 2) 
 
 # Select probes above threshold
