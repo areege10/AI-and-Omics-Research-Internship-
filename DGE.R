@@ -31,7 +31,7 @@ install.packages(c("dplyr", "tibble", "ggplot2", "pheatmap"))
 
 # Load Bioconductor packages
 library(AnnotationDbi)   # Handles annotation and probe–gene mapping
-library(hgu133plus2.db)  # Annotation database for Affymetrix HG-U133 Plus 2.0 array
+library(hgu133a.db)  # Annotation database for Affymetrix HG-U133 Plus 2.0 array
 library(limma)           # Performs linear modeling and differential expression
 library(dplyr)           # Simplifies data manipulation tasks
 library(tibble)          
